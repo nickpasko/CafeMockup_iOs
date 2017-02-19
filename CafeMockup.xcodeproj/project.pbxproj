@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1389B91B1E5998BB00B7B21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1389B91A1E5998BB00B7B21A /* AppDelegate.swift */; };
-		1389B91D1E5998BB00B7B21A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1389B91C1E5998BB00B7B21A /* ViewController.swift */; };
+		1389B91D1E5998BB00B7B21A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1389B91C1E5998BB00B7B21A /* MainViewController.swift */; };
 		1389B9201E5998BB00B7B21A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1389B91E1E5998BB00B7B21A /* Main.storyboard */; };
 		1389B9221E5998BB00B7B21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1389B9211E5998BB00B7B21A /* Assets.xcassets */; };
 		1389B9251E5998BB00B7B21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1389B9231E5998BB00B7B21A /* LaunchScreen.storyboard */; };
+		13DCEB7E1E599BB300222019 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DCEB7D1E599BB300222019 /* DrawerViewController.swift */; };
+		13DCEB801E599BE000222019 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DCEB7F1E599BE000222019 /* BaseViewController.swift */; };
+		D9FF97908FB2B7571633F56D /* Pods_CafeMockup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06DFDD77623B416750B860F /* Pods_CafeMockup.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1389B9171E5998BB00B7B21A /* CafeMockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeMockup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1389B91A1E5998BB00B7B21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1389B91C1E5998BB00B7B21A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1389B91C1E5998BB00B7B21A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1389B91F1E5998BB00B7B21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1389B9211E5998BB00B7B21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1389B9241E5998BB00B7B21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1389B9261E5998BB00B7B21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13DCEB7D1E599BB300222019 /* DrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		13DCEB7F1E599BE000222019 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8A3AB0F27F6F0819C47428B2 /* Pods-CafeMockup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeMockup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CafeMockup/Pods-CafeMockup.debug.xcconfig"; sourceTree = "<group>"; };
+		C06DFDD77623B416750B860F /* Pods_CafeMockup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CafeMockup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40ED22ADCFAACF379C5055F /* Pods-CafeMockup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeMockup.release.xcconfig"; path = "Pods/Target Support Files/Pods-CafeMockup/Pods-CafeMockup.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9FF97908FB2B7571633F56D /* Pods_CafeMockup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				1389B9191E5998BB00B7B21A /* CafeMockup */,
 				1389B9181E5998BB00B7B21A /* Products */,
+				EF9FF47AB77B5115C92906AD /* Pods */,
+				C4164D59D7304675244A4939 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +66,64 @@
 			isa = PBXGroup;
 			children = (
 				1389B91A1E5998BB00B7B21A /* AppDelegate.swift */,
-				1389B91C1E5998BB00B7B21A /* ViewController.swift */,
+				13DCEB791E599A7A00222019 /* controllers */,
+				13DCEB7A1E599A7A00222019 /* resources */,
+				13DCEB7C1E599A7A00222019 /* services */,
 				1389B91E1E5998BB00B7B21A /* Main.storyboard */,
 				1389B9211E5998BB00B7B21A /* Assets.xcassets */,
 				1389B9231E5998BB00B7B21A /* LaunchScreen.storyboard */,
 				1389B9261E5998BB00B7B21A /* Info.plist */,
 			);
 			path = CafeMockup;
+			sourceTree = "<group>";
+		};
+		13DCEB791E599A7A00222019 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1389B91C1E5998BB00B7B21A /* MainViewController.swift */,
+				13DCEB7D1E599BB300222019 /* DrawerViewController.swift */,
+				13DCEB7F1E599BE000222019 /* BaseViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		13DCEB7A1E599A7A00222019 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				13DCEB7B1E599A7A00222019 /* images */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		13DCEB7B1E599A7A00222019 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		13DCEB7C1E599A7A00222019 /* services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		C4164D59D7304675244A4939 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C06DFDD77623B416750B860F /* Pods_CafeMockup.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF9FF47AB77B5115C92906AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A3AB0F27F6F0819C47428B2 /* Pods-CafeMockup.debug.xcconfig */,
+				C40ED22ADCFAACF379C5055F /* Pods-CafeMockup.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1389B9291E5998BB00B7B21A /* Build configuration list for PBXNativeTarget "CafeMockup" */;
 			buildPhases = (
+				68FA2B521EDC2CE425EBB6F1 /* [CP] Check Pods Manifest.lock */,
 				1389B9131E5998BA00B7B21A /* Sources */,
 				1389B9141E5998BA00B7B21A /* Frameworks */,
 				1389B9151E5998BA00B7B21A /* Resources */,
+				C79097A7C37E91133586821F /* [CP] Embed Pods Frameworks */,
+				2A215E56C34823E45199C36E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +197,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A215E56C34823E45199C36E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CafeMockup/Pods-CafeMockup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68FA2B521EDC2CE425EBB6F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C79097A7C37E91133586821F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CafeMockup/Pods-CafeMockup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1389B9131E5998BA00B7B21A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1389B91D1E5998BB00B7B21A /* ViewController.swift in Sources */,
+				1389B91D1E5998BB00B7B21A /* MainViewController.swift in Sources */,
+				13DCEB801E599BE000222019 /* BaseViewController.swift in Sources */,
 				1389B91B1E5998BB00B7B21A /* AppDelegate.swift in Sources */,
+				13DCEB7E1E599BB300222019 /* DrawerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +372,7 @@
 		};
 		1389B92A1E5998BB00B7B21A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3AB0F27F6F0819C47428B2 /* Pods-CafeMockup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ECAUWYD9Y5;
@@ -270,6 +386,7 @@
 		};
 		1389B92B1E5998BB00B7B21A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C40ED22ADCFAACF379C5055F /* Pods-CafeMockup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ECAUWYD9Y5;
@@ -300,6 +417,7 @@
 				1389B92B1E5998BB00B7B21A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

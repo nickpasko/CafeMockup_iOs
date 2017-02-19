@@ -1,0 +1,6 @@
+framework module Pods_CafeMockup {
+  umbrella header "Pods-CafeMockup-umbrella.h"
+
+  export *
+  module * { export * }
+}

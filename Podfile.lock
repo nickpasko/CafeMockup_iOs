@@ -1,0 +1,26 @@
+PODS:
+  - MMDrawerController (0.6.0):
+    - MMDrawerController/Core (= 0.6.0)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
+    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
+    - MMDrawerController/Subclass (= 0.6.0)
+  - MMDrawerController/Core (0.6.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.6.0):
+    - MMDrawerController/Core
+  - SwiftyJSON (3.1.0)
+
+DEPENDENCIES:
+  - MMDrawerController (~> 0.6.0)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  SwiftyJSON: 29b9f2a64f118c07e691667c2ba1efe536acfe0b
+
+PODFILE CHECKSUM: 097a183261dc130a7dfbd60a86b087767f1e3cf8
+
+COCOAPODS: 1.2.0
