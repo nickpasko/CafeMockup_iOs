@@ -7,17 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13057AE01E59AE65005BA991 /* icon-basket.png in Resources */ = {isa = PBXBuildFile; fileRef = 13057ADF1E59AE65005BA991 /* icon-basket.png */; };
+		13057AE31E59B557005BA991 /* icon-burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 13057AE11E59B557005BA991 /* icon-burger.png */; };
+		13057AE41E59B557005BA991 /* icon-coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 13057AE21E59B557005BA991 /* icon-coffee.png */; };
+		13057AE61E59BC99005BA991 /* icon-basket-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 13057AE51E59BC99005BA991 /* icon-basket-white.png */; };
+		13057AE81E59BCCF005BA991 /* ProductCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13057AE71E59BCCF005BA991 /* ProductCollectionViewController.swift */; };
 		1389B91B1E5998BB00B7B21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1389B91A1E5998BB00B7B21A /* AppDelegate.swift */; };
 		1389B91D1E5998BB00B7B21A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1389B91C1E5998BB00B7B21A /* MainViewController.swift */; };
 		1389B9201E5998BB00B7B21A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1389B91E1E5998BB00B7B21A /* Main.storyboard */; };
 		1389B9221E5998BB00B7B21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1389B9211E5998BB00B7B21A /* Assets.xcassets */; };
 		1389B9251E5998BB00B7B21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1389B9231E5998BB00B7B21A /* LaunchScreen.storyboard */; };
+		139110B41E59FC7700EEE60B /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139110B31E59FC7700EEE60B /* ProductCollectionViewCell.swift */; };
+		139110B91E5A07B300EEE60B /* burger-carolina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 139110B51E5A07B300EEE60B /* burger-carolina.jpg */; };
+		139110BA1E5A07B300EEE60B /* burger-classic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 139110B61E5A07B300EEE60B /* burger-classic.jpg */; };
+		139110BB1E5A07B300EEE60B /* burger-patty-melt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 139110B71E5A07B300EEE60B /* burger-patty-melt.jpg */; };
+		139110BC1E5A07B300EEE60B /* burger-philly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 139110B81E5A07B300EEE60B /* burger-philly.jpg */; };
+		139110BE1E5A176B00EEE60B /* XButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139110BD1E5A176B00EEE60B /* XButton.swift */; };
+		139110D01E5A19FA00EEE60B /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110C01E5A19FA00EEE60B /* AppIcon29x29.png */; };
+		139110D11E5A19FA00EEE60B /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110C11E5A19FA00EEE60B /* AppIcon29x29@2x.png */; };
+		139110D21E5A19FA00EEE60B /* AppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110C21E5A19FA00EEE60B /* AppIcon40x40.png */; };
+		139110D31E5A19FA00EEE60B /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110C31E5A19FA00EEE60B /* AppIcon40x40@2x.png */; };
+		139110D41E5A19FA00EEE60B /* AppIcon50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110C41E5A19FA00EEE60B /* AppIcon50x50.png */; };
+		139110D51E5A19FA00EEE60B /* AppIcon50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110C51E5A19FA00EEE60B /* AppIcon50x50@2x.png */; };
+		139110D61E5A19FA00EEE60B /* AppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110C61E5A19FA00EEE60B /* AppIcon57x57.png */; };
+		139110D71E5A19FA00EEE60B /* AppIcon57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110C71E5A19FA00EEE60B /* AppIcon57x57@2x.png */; };
+		139110D81E5A19FA00EEE60B /* AppIcon60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110C81E5A19FA00EEE60B /* AppIcon60x60.png */; };
+		139110D91E5A19FA00EEE60B /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110C91E5A19FA00EEE60B /* AppIcon60x60@2x.png */; };
+		139110DA1E5A19FA00EEE60B /* AppIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110CA1E5A19FA00EEE60B /* AppIcon72x72.png */; };
+		139110DB1E5A19FA00EEE60B /* AppIcon72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110CB1E5A19FA00EEE60B /* AppIcon72x72@2x.png */; };
+		139110DC1E5A19FA00EEE60B /* AppIcon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110CC1E5A19FA00EEE60B /* AppIcon76x76.png */; };
+		139110DD1E5A19FA00EEE60B /* AppIcon76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110CD1E5A19FA00EEE60B /* AppIcon76x76@2x.png */; };
+		139110DE1E5A19FA00EEE60B /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110CE1E5A19FA00EEE60B /* iTunesArtwork.png */; };
+		139110DF1E5A19FA00EEE60B /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110CF1E5A19FA00EEE60B /* iTunesArtwork@2x.png */; };
+		139110E11E5A1B1700EEE60B /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110E01E5A1B1700EEE60B /* logo.png */; };
+		139110E31E5A207800EEE60B /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139110E21E5A207800EEE60B /* BasketViewController.swift */; };
+		139110E51E5A209900EEE60B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139110E41E5A209900EEE60B /* SettingsViewController.swift */; };
+		139110E71E5A21A600EEE60B /* icon-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110E61E5A21A600EEE60B /* icon-settings.png */; };
+		139110EA1E5A221500EEE60B /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139110E91E5A221500EEE60B /* Animator.swift */; };
 		13DCEB7E1E599BB300222019 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DCEB7D1E599BB300222019 /* DrawerViewController.swift */; };
 		13DCEB801E599BE000222019 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DCEB7F1E599BE000222019 /* BaseViewController.swift */; };
+		13DCEB821E59A68900222019 /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13DCEB811E59A68900222019 /* banner.jpg */; };
 		D9FF97908FB2B7571633F56D /* Pods_CafeMockup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06DFDD77623B416750B860F /* Pods_CafeMockup.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13057ADF1E59AE65005BA991 /* icon-basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-basket.png"; sourceTree = "<group>"; };
+		13057AE11E59B557005BA991 /* icon-burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-burger.png"; sourceTree = "<group>"; };
+		13057AE21E59B557005BA991 /* icon-coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-coffee.png"; sourceTree = "<group>"; };
+		13057AE51E59BC99005BA991 /* icon-basket-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-basket-white.png"; sourceTree = "<group>"; };
+		13057AE71E59BCCF005BA991 /* ProductCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewController.swift; sourceTree = "<group>"; };
 		1389B9171E5998BB00B7B21A /* CafeMockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeMockup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1389B91A1E5998BB00B7B21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1389B91C1E5998BB00B7B21A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -25,8 +63,36 @@
 		1389B9211E5998BB00B7B21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1389B9241E5998BB00B7B21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1389B9261E5998BB00B7B21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139110B31E59FC7700EEE60B /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		139110B51E5A07B300EEE60B /* burger-carolina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "burger-carolina.jpg"; sourceTree = "<group>"; };
+		139110B61E5A07B300EEE60B /* burger-classic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "burger-classic.jpg"; sourceTree = "<group>"; };
+		139110B71E5A07B300EEE60B /* burger-patty-melt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "burger-patty-melt.jpg"; sourceTree = "<group>"; };
+		139110B81E5A07B300EEE60B /* burger-philly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "burger-philly.jpg"; sourceTree = "<group>"; };
+		139110BD1E5A176B00EEE60B /* XButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XButton.swift; sourceTree = "<group>"; };
+		139110C01E5A19FA00EEE60B /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
+		139110C11E5A19FA00EEE60B /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		139110C21E5A19FA00EEE60B /* AppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon40x40.png; sourceTree = "<group>"; };
+		139110C31E5A19FA00EEE60B /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		139110C41E5A19FA00EEE60B /* AppIcon50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon50x50.png; sourceTree = "<group>"; };
+		139110C51E5A19FA00EEE60B /* AppIcon50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon50x50@2x.png"; sourceTree = "<group>"; };
+		139110C61E5A19FA00EEE60B /* AppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon57x57.png; sourceTree = "<group>"; };
+		139110C71E5A19FA00EEE60B /* AppIcon57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon57x57@2x.png"; sourceTree = "<group>"; };
+		139110C81E5A19FA00EEE60B /* AppIcon60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60x60.png; sourceTree = "<group>"; };
+		139110C91E5A19FA00EEE60B /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		139110CA1E5A19FA00EEE60B /* AppIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon72x72.png; sourceTree = "<group>"; };
+		139110CB1E5A19FA00EEE60B /* AppIcon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon72x72@2x.png"; sourceTree = "<group>"; };
+		139110CC1E5A19FA00EEE60B /* AppIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon76x76.png; sourceTree = "<group>"; };
+		139110CD1E5A19FA00EEE60B /* AppIcon76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76x76@2x.png"; sourceTree = "<group>"; };
+		139110CE1E5A19FA00EEE60B /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		139110CF1E5A19FA00EEE60B /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		139110E01E5A1B1700EEE60B /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		139110E21E5A207800EEE60B /* BasketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		139110E41E5A209900EEE60B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		139110E61E5A21A600EEE60B /* icon-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-settings.png"; sourceTree = "<group>"; };
+		139110E91E5A221500EEE60B /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 		13DCEB7D1E599BB300222019 /* DrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
 		13DCEB7F1E599BE000222019 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		13DCEB811E59A68900222019 /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
 		8A3AB0F27F6F0819C47428B2 /* Pods-CafeMockup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeMockup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CafeMockup/Pods-CafeMockup.debug.xcconfig"; sourceTree = "<group>"; };
 		C06DFDD77623B416750B860F /* Pods_CafeMockup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CafeMockup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40ED22ADCFAACF379C5055F /* Pods-CafeMockup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeMockup.release.xcconfig"; path = "Pods/Target Support Files/Pods-CafeMockup/Pods-CafeMockup.release.xcconfig"; sourceTree = "<group>"; };
@@ -66,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				1389B91A1E5998BB00B7B21A /* AppDelegate.swift */,
+				139110E81E5A221500EEE60B /* common */,
+				139110B21E59FC6500EEE60B /* view */,
 				13DCEB791E599A7A00222019 /* controllers */,
 				13DCEB7A1E599A7A00222019 /* resources */,
 				13DCEB7C1E599A7A00222019 /* services */,
@@ -77,12 +145,55 @@
 			path = CafeMockup;
 			sourceTree = "<group>";
 		};
+		139110B21E59FC6500EEE60B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				139110BD1E5A176B00EEE60B /* XButton.swift */,
+				139110B31E59FC7700EEE60B /* ProductCollectionViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		139110BF1E5A19FA00EEE60B /* appicon */ = {
+			isa = PBXGroup;
+			children = (
+				139110C01E5A19FA00EEE60B /* AppIcon29x29.png */,
+				139110C11E5A19FA00EEE60B /* AppIcon29x29@2x.png */,
+				139110C21E5A19FA00EEE60B /* AppIcon40x40.png */,
+				139110C31E5A19FA00EEE60B /* AppIcon40x40@2x.png */,
+				139110C41E5A19FA00EEE60B /* AppIcon50x50.png */,
+				139110C51E5A19FA00EEE60B /* AppIcon50x50@2x.png */,
+				139110C61E5A19FA00EEE60B /* AppIcon57x57.png */,
+				139110C71E5A19FA00EEE60B /* AppIcon57x57@2x.png */,
+				139110C81E5A19FA00EEE60B /* AppIcon60x60.png */,
+				139110C91E5A19FA00EEE60B /* AppIcon60x60@2x.png */,
+				139110CA1E5A19FA00EEE60B /* AppIcon72x72.png */,
+				139110CB1E5A19FA00EEE60B /* AppIcon72x72@2x.png */,
+				139110CC1E5A19FA00EEE60B /* AppIcon76x76.png */,
+				139110CD1E5A19FA00EEE60B /* AppIcon76x76@2x.png */,
+				139110CE1E5A19FA00EEE60B /* iTunesArtwork.png */,
+				139110CF1E5A19FA00EEE60B /* iTunesArtwork@2x.png */,
+			);
+			path = appicon;
+			sourceTree = "<group>";
+		};
+		139110E81E5A221500EEE60B /* common */ = {
+			isa = PBXGroup;
+			children = (
+				139110E91E5A221500EEE60B /* Animator.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
 		13DCEB791E599A7A00222019 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
 				1389B91C1E5998BB00B7B21A /* MainViewController.swift */,
 				13DCEB7D1E599BB300222019 /* DrawerViewController.swift */,
 				13DCEB7F1E599BE000222019 /* BaseViewController.swift */,
+				13057AE71E59BCCF005BA991 /* ProductCollectionViewController.swift */,
+				139110E21E5A207800EEE60B /* BasketViewController.swift */,
+				139110E41E5A209900EEE60B /* SettingsViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -98,6 +209,18 @@
 		13DCEB7B1E599A7A00222019 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				139110E61E5A21A600EEE60B /* icon-settings.png */,
+				139110E01E5A1B1700EEE60B /* logo.png */,
+				139110BF1E5A19FA00EEE60B /* appicon */,
+				139110B51E5A07B300EEE60B /* burger-carolina.jpg */,
+				139110B61E5A07B300EEE60B /* burger-classic.jpg */,
+				139110B71E5A07B300EEE60B /* burger-patty-melt.jpg */,
+				139110B81E5A07B300EEE60B /* burger-philly.jpg */,
+				13DCEB811E59A68900222019 /* banner.jpg */,
+				13057ADF1E59AE65005BA991 /* icon-basket.png */,
+				13057AE11E59B557005BA991 /* icon-burger.png */,
+				13057AE51E59BC99005BA991 /* icon-basket-white.png */,
+				13057AE21E59B557005BA991 /* icon-coffee.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -189,9 +312,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13057AE41E59B557005BA991 /* icon-coffee.png in Resources */,
 				1389B9251E5998BB00B7B21A /* LaunchScreen.storyboard in Resources */,
+				139110B91E5A07B300EEE60B /* burger-carolina.jpg in Resources */,
+				139110DA1E5A19FA00EEE60B /* AppIcon72x72.png in Resources */,
+				139110D61E5A19FA00EEE60B /* AppIcon57x57.png in Resources */,
+				139110D91E5A19FA00EEE60B /* AppIcon60x60@2x.png in Resources */,
+				139110BA1E5A07B300EEE60B /* burger-classic.jpg in Resources */,
+				139110D41E5A19FA00EEE60B /* AppIcon50x50.png in Resources */,
+				139110D71E5A19FA00EEE60B /* AppIcon57x57@2x.png in Resources */,
+				13057AE31E59B557005BA991 /* icon-burger.png in Resources */,
+				139110DD1E5A19FA00EEE60B /* AppIcon76x76@2x.png in Resources */,
 				1389B9221E5998BB00B7B21A /* Assets.xcassets in Resources */,
 				1389B9201E5998BB00B7B21A /* Main.storyboard in Resources */,
+				139110D21E5A19FA00EEE60B /* AppIcon40x40.png in Resources */,
+				13057AE01E59AE65005BA991 /* icon-basket.png in Resources */,
+				139110DE1E5A19FA00EEE60B /* iTunesArtwork.png in Resources */,
+				139110E11E5A1B1700EEE60B /* logo.png in Resources */,
+				13057AE61E59BC99005BA991 /* icon-basket-white.png in Resources */,
+				139110D31E5A19FA00EEE60B /* AppIcon40x40@2x.png in Resources */,
+				139110BB1E5A07B300EEE60B /* burger-patty-melt.jpg in Resources */,
+				139110D11E5A19FA00EEE60B /* AppIcon29x29@2x.png in Resources */,
+				139110D81E5A19FA00EEE60B /* AppIcon60x60.png in Resources */,
+				139110DC1E5A19FA00EEE60B /* AppIcon76x76.png in Resources */,
+				139110D51E5A19FA00EEE60B /* AppIcon50x50@2x.png in Resources */,
+				139110DF1E5A19FA00EEE60B /* iTunesArtwork@2x.png in Resources */,
+				139110DB1E5A19FA00EEE60B /* AppIcon72x72@2x.png in Resources */,
+				139110BC1E5A07B300EEE60B /* burger-philly.jpg in Resources */,
+				139110E71E5A21A600EEE60B /* icon-settings.png in Resources */,
+				139110D01E5A19FA00EEE60B /* AppIcon29x29.png in Resources */,
+				13DCEB821E59A68900222019 /* banner.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,10 +400,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				139110EA1E5A221500EEE60B /* Animator.swift in Sources */,
 				1389B91D1E5998BB00B7B21A /* MainViewController.swift in Sources */,
+				139110BE1E5A176B00EEE60B /* XButton.swift in Sources */,
+				13057AE81E59BCCF005BA991 /* ProductCollectionViewController.swift in Sources */,
 				13DCEB801E599BE000222019 /* BaseViewController.swift in Sources */,
 				1389B91B1E5998BB00B7B21A /* AppDelegate.swift in Sources */,
+				139110B41E59FC7700EEE60B /* ProductCollectionViewCell.swift in Sources */,
+				139110E31E5A207800EEE60B /* BasketViewController.swift in Sources */,
 				13DCEB7E1E599BB300222019 /* DrawerViewController.swift in Sources */,
+				139110E51E5A209900EEE60B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
