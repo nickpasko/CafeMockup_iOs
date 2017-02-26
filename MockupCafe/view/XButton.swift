@@ -1,3 +1,9 @@
+/*
+ Project: MockupCafe
+ Copyright (C) 2017  Slava Anishchuk
+ http://www.cybecor.com
+ */
+
 import UIKit
 
 class XButton: UIButton {

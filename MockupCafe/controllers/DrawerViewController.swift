@@ -1,14 +1,25 @@
+/*
+ Project: MockupCafe
+ Copyright (C) 2017  Slava Anishchuk
+ http://www.cybecor.com
+ */
+
 import UIKit
 
 class DrawerViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let menuItems = ["Home","Basket","Settings", "Sign In"]
+    let menuItems = ["Home","Basket","Settings"]
+    let menuIndex = (Home: 0, Basket: 1, Settings: 2)
     
     @IBOutlet var tabelView: UITableView!
     
     override func viewDidLoad() {
         tabelView.delegate = self
         tabelView.dataSource = self
+        
+        navigationController?.navigationBar.tintColor = UIColor.white
+        navigationController?.navigationBar.barTintColor = UIColor.black
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
     }
     
     
@@ -18,22 +29,24 @@ class DrawerViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        var viewController: UIViewController!
+        var vc: UIViewController!
         
         switch indexPath.row {
-            case 1:
-                viewController = storyboard.instantiateViewController(withIdentifier: "BasketViewController") as! BasketViewController
+            case menuIndex.Home:
+                vc = storyboard.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
+            break
+            case menuIndex.Basket:
+                vc = storyboard.instantiateViewController(withIdentifier: "BasketViewController") as! BasketViewController
                 break
-            case 2:
-                viewController = storyboard.instantiateViewController(withIdentifier: "SettingsViewController") as! SettingsViewController
+            case menuIndex.Settings:
+                vc = storyboard.instantiateViewController(withIdentifier: "SettingsViewController") as! SettingsViewController
             break
             default:
-                viewController = storyboard.instantiateViewController(withIdentifier: "MainViewController") as! MainViewController
-            break
+            return
         }
         
-        if ( viewController != nil ) {
-            let navView = UINavigationController(rootViewController: viewController)
+        if ( vc != nil ) {
+            let navView = UINavigationController(rootViewController: vc)
             let appDelegate = UIApplication.shared.delegate as! AppDelegate
             appDelegate.centerContainer?.centerViewController = navView
             appDelegate.centerContainer?.toggle(.left, animated: true, completion: nil)

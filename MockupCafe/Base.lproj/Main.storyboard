@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--CafeMockup-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" title="CafeMockup" id="BYZ-38-t0r" customClass="MainViewController" customModule="MockupCafe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fLB-2C-iXE">
+                                <rect key="frame" x="0.0" y="60" width="320" height="210"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-burger.png" translatesAutoresizingMaskIntoConstraints="NO" id="CJS-dF-t3D">
+                                <rect key="frame" x="38" y="335" width="72" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="ddX-lF-GWK"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-coffee.png" translatesAutoresizingMaskIntoConstraints="NO" id="TAZ-L5-oql">
+                                <rect key="frame" x="189" y="315" width="96" height="96"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFi-g0-EWk">
+                                <rect key="frame" x="204" y="406" width="66" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="66" id="yrl-7g-FM7"/>
+                                </constraints>
+                                <state key="normal" title="Coffe">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showCoffe" destination="BYZ-38-t0r" eventType="touchUpInside" id="gat-B5-iUm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tQ-Xj-J26">
+                                <rect key="frame" x="38" y="406" width="72" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="noT-fy-gEG"/>
+                                </constraints>
+                                <state key="normal" title="Burgers">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showBurgers" destination="BYZ-38-t0r" eventType="touchUpInside" id="ErK-zy-yCA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z6f-J9-YCs" customClass="XButton" customModule="MockupCafe" customModuleProvider="target">
+                                <rect key="frame" x="38" y="481" width="247" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.58847925343240526" blue="0.12449737451108045" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="49e-6J-bNU"/>
+                                </constraints>
+                                <state key="normal" title="All Products">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showAllProducts" destination="BYZ-38-t0r" eventType="touchUpInside" id="gfT-Fw-0zb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.97803829519999996" green="1" blue="0.98355458070000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CJS-dF-t3D" firstAttribute="leading" secondItem="1tQ-Xj-J26" secondAttribute="leading" id="0Cy-vw-goi"/>
+                            <constraint firstItem="Z6f-J9-YCs" firstAttribute="top" secondItem="TAZ-L5-oql" secondAttribute="bottom" constant="70" id="3P2-tH-n14"/>
+                            <constraint firstItem="fLB-2C-iXE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="60" id="D8j-hC-qZc"/>
+                            <constraint firstItem="1tQ-Xj-J26" firstAttribute="centerY" secondItem="ZFi-g0-EWk" secondAttribute="centerY" id="KRL-sK-9Wn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TAZ-L5-oql" secondAttribute="trailing" constant="19" id="Pck-AK-oLD"/>
+                            <constraint firstItem="Z6f-J9-YCs" firstAttribute="top" secondItem="CJS-dF-t3D" secondAttribute="bottom" constant="74" id="QUH-Rj-Nkd"/>
+                            <constraint firstItem="TAZ-L5-oql" firstAttribute="centerX" secondItem="ZFi-g0-EWk" secondAttribute="centerX" id="Quk-Kh-ERC"/>
+                            <constraint firstItem="ZFi-g0-EWk" firstAttribute="leading" secondItem="1tQ-Xj-J26" secondAttribute="trailing" constant="94" id="R8J-Gx-KXk"/>
+                            <constraint firstItem="CJS-dF-t3D" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="22" id="THs-PD-qxc"/>
+                            <constraint firstItem="Z6f-J9-YCs" firstAttribute="top" secondItem="ZFi-g0-EWk" secondAttribute="bottom" constant="45" id="WWS-kn-Czg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Z6f-J9-YCs" secondAttribute="bottom" constant="37" id="XWw-WY-Mb4"/>
+                            <constraint firstItem="1tQ-Xj-J26" firstAttribute="baseline" secondItem="ZFi-g0-EWk" secondAttribute="firstBaseline" id="cco-dw-8sM"/>
+                            <constraint firstItem="TAZ-L5-oql" firstAttribute="top" secondItem="fLB-2C-iXE" secondAttribute="bottom" constant="45" id="d5G-FU-HL3"/>
+                            <constraint firstItem="TAZ-L5-oql" firstAttribute="trailing" secondItem="Z6f-J9-YCs" secondAttribute="trailing" id="eXL-87-qML"/>
+                            <constraint firstAttribute="trailing" secondItem="fLB-2C-iXE" secondAttribute="trailing" id="gw1-Q9-n7f"/>
+                            <constraint firstItem="TAZ-L5-oql" firstAttribute="leading" secondItem="CJS-dF-t3D" secondAttribute="trailing" constant="79" id="jHC-kN-wWe"/>
+                            <constraint firstItem="CJS-dF-t3D" firstAttribute="top" secondItem="fLB-2C-iXE" secondAttribute="bottom" constant="65" id="jiw-Wf-aaZ"/>
+                            <constraint firstItem="1tQ-Xj-J26" firstAttribute="leading" secondItem="Z6f-J9-YCs" secondAttribute="leading" id="mW1-er-dVS"/>
+                            <constraint firstItem="CJS-dF-t3D" firstAttribute="trailing" secondItem="1tQ-Xj-J26" secondAttribute="trailing" id="nuf-JY-4av"/>
+                            <constraint firstItem="fLB-2C-iXE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qct-da-dgw"/>
+                            <constraint firstItem="ZFi-g0-EWk" firstAttribute="baseline" secondItem="1tQ-Xj-J26" secondAttribute="firstBaseline" id="uXu-Nj-VgZ"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="bannerImg" destination="fLB-2C-iXE" id="IHC-cJ-KTN"/>
+                        <outlet property="btnMore" destination="Z6f-J9-YCs" id="rcn-AX-ITi"/>
+                        <outlet property="img1" destination="CJS-dF-t3D" id="SPD-Md-zmJ"/>
+                        <outlet property="img2" destination="TAZ-L5-oql" id="WAi-c0-Cqm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.75" y="32.74647887323944"/>
+        </scene>
+        <!--Products-->
+        <scene sceneID="jEe-uU-vTn">
+            <objects>
+                <viewController storyboardIdentifier="ProductCollectionViewController" title="Products" id="qv9-gq-XjZ" customClass="ProductCollectionViewController" customModule="MockupCafe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nur-Iw-rxZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="blY-C9-AJ6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GOv-hd-IcP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4Pt-L3-AmA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="scrollIndicatorInsets" minX="0.0" minY="5" maxX="0.0" maxY="5"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="gga-D5-nId">
+                                    <size key="itemSize" width="310" height="148"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellID" id="aRc-z2-x7c" customClass="ProductCollectionViewCell" customModule="MockupCafe" customModuleProvider="target">
+                                        <rect key="frame" x="5" y="10" width="310" height="148"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="310" height="148"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon-burger.png" translatesAutoresizingMaskIntoConstraints="NO" id="mYa-Lq-djO">
+                                                    <rect key="frame" x="5" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Item name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qv-Lc-5oY">
+                                                    <rect key="frame" x="133" y="8" width="168" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Long description" textAlignment="natural" lineBreakMode="clip" numberOfLines="3" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BhI-oD-ytQ">
+                                                    <rect key="frame" x="133" y="36" width="168" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fX8-gX-tOU">
+                                                    <rect key="frame" x="215" y="107" width="95" height="40"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.93384873869999996" green="0.4922440052" blue="0.2005875409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="0.99495302809999997" green="0.99293005509999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mem-In-fEY" customClass="XButton" customModule="MockupCafe" customModuleProvider="target">
+                                                    <rect key="frame" x="133" y="107" width="82" height="40"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.26447984569999999" green="0.43749855830000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </button>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon-basket-white.png" translatesAutoresizingMaskIntoConstraints="NO" id="q1X-km-OJt">
+                                                    <rect key="frame" x="164" y="116" width="22" height="22"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <connections>
+                                            <outlet property="btnAddToBasket" destination="mem-In-fEY" id="DHE-1p-Ymx"/>
+                                            <outlet property="imageView" destination="mYa-Lq-djO" id="JSY-je-JeL"/>
+                                            <outlet property="labelDescription" destination="BhI-oD-ytQ" id="gII-hx-i7w"/>
+                                            <outlet property="labelPrice" destination="fX8-gX-tOU" id="wlo-AF-jYh"/>
+                                            <outlet property="labelTitle" destination="1qv-Lc-5oY" id="JaA-cK-0if"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="4Pt-L3-AmA" id="bDA-aW-P7d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xaz-sK-XkF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="735" y="34.859154929577464"/>
+        </scene>
+        <!--Basket-->
+        <scene sceneID="wrb-Uk-Dls">
+            <objects>
+                <viewController storyboardIdentifier="BasketViewController" title="Basket" id="YkJ-e8-lem" customClass="BasketViewController" customModule="MockupCafe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l6O-CD-95F"/>
+                        <viewControllerLayoutGuide type="bottom" id="O7X-kt-btf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HbG-yu-1HF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Basket is empty!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHM-rY-lgf">
+                                <rect key="frame" x="16" y="260" width="288" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="KSg-sa-wA5">
+                                <rect key="frame" x="0.0" y="48" width="320" height="520"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="scrollIndicatorInsets" minX="0.0" minY="5" maxX="0.0" maxY="5"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="CL2-Dp-4fi">
+                                    <size key="itemSize" width="310" height="148"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="10" maxX="0.0" maxY="10"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellID" id="f8k-LL-OOz" customClass="ProductCollectionViewCell" customModule="MockupCafe" customModuleProvider="target">
+                                        <rect key="frame" x="5" y="10" width="310" height="148"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="310" height="148"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon-burger.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dq4-Fn-u8S">
+                                                    <rect key="frame" x="5" y="5" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Item name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uD2-Fh-9Ha">
+                                                    <rect key="frame" x="133" y="8" width="168" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Long description" textAlignment="natural" lineBreakMode="clip" numberOfLines="3" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0JF-VS-MHI">
+                                                    <rect key="frame" x="133" y="36" width="168" height="56"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xSn-mF-1pv">
+                                                    <rect key="frame" x="133" y="108" width="177" height="40"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.93384873869999996" green="0.4922440052" blue="0.2005875409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="highlightedColor" red="0.99495302809999997" green="0.99293005509999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <connections>
+                                            <outlet property="imageView" destination="Dq4-Fn-u8S" id="jwL-0z-QyV"/>
+                                            <outlet property="labelDescription" destination="0JF-VS-MHI" id="Nc8-23-9kx"/>
+                                            <outlet property="labelPrice" destination="xSn-mF-1pv" id="aVJ-KL-pQ0"/>
+                                            <outlet property="labelTitle" destination="uD2-Fh-9Ha" id="C8T-cv-C1G"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="totalCellID" id="ZMc-2O-fcv" customClass="ProductTotalCollectionViewCell" customModule="MockupCafe" customModuleProvider="target">
+                                        <rect key="frame" x="5" y="168" width="310" height="129"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="310" height="129"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total: 0.0$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGO-KV-ZrR">
+                                                    <rect key="frame" x="8" y="18" width="294" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXS-J9-SlG" customClass="XButton" customModule="MockupCafe" customModuleProvider="target">
+                                                    <rect key="frame" x="162" y="60" width="140" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <state key="normal" title="Make Order!">
+                                                        <color key="titleColor" red="0.99495302809999997" green="0.99293005509999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icw-zf-NlH" customClass="XButton" customModule="MockupCafe" customModuleProvider="target">
+                                                    <rect key="frame" x="8" y="60" width="140" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="Clean Basket">
+                                                        <color key="titleColor" red="0.99495302809999997" green="0.99293005509999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                        </view>
+                                        <size key="customSize" width="310" height="129"/>
+                                        <connections>
+                                            <outlet property="btnCleanBasket" destination="icw-zf-NlH" id="WEW-tK-cry"/>
+                                            <outlet property="btnMakeOrder" destination="KXS-J9-SlG" id="hbA-fC-TF8"/>
+                                            <outlet property="labelTitle" destination="vGO-KV-ZrR" id="rvO-cX-tLB"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="KSg-sa-wA5" id="fj1-pQ-R1l"/>
+                        <outlet property="lblBasketIsEmpty" destination="DHM-rY-lgf" id="BSK-Jm-NjP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zWh-qq-4vE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.75" y="767.95774647887322"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="SJu-5P-Xe3">
+            <objects>
+                <viewController storyboardIdentifier="SettingsViewController" title="Settings" id="59e-wj-5w0" customClass="SettingsViewController" customModule="MockupCafe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sOM-z5-BJt"/>
+                        <viewControllerLayoutGuide type="bottom" id="6wE-uI-ADt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3Yj-bj-FNP">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cPq-En-vo9">
+                                <rect key="frame" x="15" y="70" width="290" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="m3V-GE-AXa">
+                                        <rect key="frame" x="69" y="11" width="150" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpQ-Lg-0G9">
+                                        <rect key="frame" x="0.0" y="169" width="288" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Push Notification" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRM-qs-4VE">
+                                        <rect key="frame" x="3" y="234" width="134" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q5a-N3-wcw">
+                                        <rect key="frame" x="237" y="229" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="viewLayer" destination="cPq-En-vo9" id="ihs-jy-h2t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Ia-Rr-bjQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="735" y="767.95774647887322"/>
+        </scene>
+        <!--Menu-->
+        <scene sceneID="QJF-Ri-BEG">
+            <objects>
+                <viewController storyboardIdentifier="DrawerViewController" title="Menu" id="tVy-hI-xlS" customClass="DrawerViewController" customModule="MockupCafe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Avy-hW-bLg"/>
+                        <viewControllerLayoutGuide type="bottom" id="vT7-SK-Hdx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KdZ-l6-APG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" scrollEnabled="NO" indicatorStyle="white" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SkN-l7-0sf">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.12865314272917283" green="0.13122620558375631" blue="0.13122620558375631" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="separatorColor" red="0.15398953045685282" green="0.15398953045685282" blue="0.15398953045685282" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexTrackingBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellID" textLabel="N1c-0C-9Ff" style="IBUITableViewCellStyleDefault" id="5Mg-gl-YHJ">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5Mg-gl-YHJ" id="CZ5-Aw-yuv">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="N1c-0C-9Ff">
+                                                    <rect key="frame" x="15" y="0.0" width="290" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.96785226619999998" green="0.97743496190000001" blue="0.97743496190000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="tintColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tabelView" destination="SkN-l7-0sf" id="2cc-eV-60D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Snf-qu-Shp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-813.75" y="34.859154929577464"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="banner.jpg" width="1600" height="1000"/>
+        <image name="icon-basket-white.png" width="24" height="24"/>
+        <image name="icon-burger.png" width="512" height="512"/>
+        <image name="icon-coffee.png" width="256" height="256"/>
+        <image name="icon-settings.png" width="256" height="256"/>
+    </resources>
+</document>

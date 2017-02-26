@@ -1,3 +1,9 @@
+/*
+ Project: MockupCafe
+ Copyright (C) 2017  Slava Anishchuk
+ http://www.cybecor.com
+ */
+
 import UIKit
 import MMDrawerController
 
@@ -13,7 +19,6 @@ class BaseViewController: UIViewController {
         navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
         
         initMenuButton()
-        animateControlBar()
     }
     
     
@@ -37,5 +42,15 @@ class BaseViewController: UIViewController {
         appDelegate.centerContainer!.toggle(MMDrawerSide.left, animated: true, completion: nil)
     }
     
-    func openBasket() {}
+    func openBasket() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "BasketViewController") as! BasketViewController    
+        let navView = UINavigationController(rootViewController: vc)
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.centerContainer?.centerViewController = navView
+    }
+    
+    func updateBasketBadge() {
+        
+    }
 }

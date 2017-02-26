@@ -44,6 +44,11 @@
 		139110E51E5A209900EEE60B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139110E41E5A209900EEE60B /* SettingsViewController.swift */; };
 		139110E71E5A21A600EEE60B /* icon-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 139110E61E5A21A600EEE60B /* icon-settings.png */; };
 		139110EA1E5A221500EEE60B /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139110E91E5A221500EEE60B /* Animator.swift */; };
+		139D14E41E62EE03003970C1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1389B9261E5998BB00B7B21A /* Info.plist */; };
+		139D14E81E630B17003970C1 /* ProductTotalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139D14E71E630B17003970C1 /* ProductTotalCollectionViewCell.swift */; };
+		139D14EA1E631DFB003970C1 /* coffe-paper-cup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 139D14E91E631DFB003970C1 /* coffe-paper-cup.jpg */; };
+		13C15B5E1E62E8A400ACC7D9 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C15B5D1E62E8A400ACC7D9 /* Product.swift */; };
+		13C15B601E62E92600ACC7D9 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C15B5F1E62E92600ACC7D9 /* ProductService.swift */; };
 		13DCEB7E1E599BB300222019 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DCEB7D1E599BB300222019 /* DrawerViewController.swift */; };
 		13DCEB801E599BE000222019 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DCEB7F1E599BE000222019 /* BaseViewController.swift */; };
 		13DCEB821E59A68900222019 /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13DCEB811E59A68900222019 /* banner.jpg */; };
@@ -56,7 +61,7 @@
 		13057AE21E59B557005BA991 /* icon-coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-coffee.png"; sourceTree = "<group>"; };
 		13057AE51E59BC99005BA991 /* icon-basket-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-basket-white.png"; sourceTree = "<group>"; };
 		13057AE71E59BCCF005BA991 /* ProductCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewController.swift; sourceTree = "<group>"; };
-		1389B9171E5998BB00B7B21A /* CafeMockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeMockup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1389B9171E5998BB00B7B21A /* MockupCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockupCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1389B91A1E5998BB00B7B21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1389B91C1E5998BB00B7B21A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1389B91F1E5998BB00B7B21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,6 +95,10 @@
 		139110E41E5A209900EEE60B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		139110E61E5A21A600EEE60B /* icon-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-settings.png"; sourceTree = "<group>"; };
 		139110E91E5A221500EEE60B /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		139D14E71E630B17003970C1 /* ProductTotalCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTotalCollectionViewCell.swift; sourceTree = "<group>"; };
+		139D14E91E631DFB003970C1 /* coffe-paper-cup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coffe-paper-cup.jpg"; sourceTree = "<group>"; };
+		13C15B5D1E62E8A400ACC7D9 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		13C15B5F1E62E92600ACC7D9 /* ProductService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
 		13DCEB7D1E599BB300222019 /* DrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
 		13DCEB7F1E599BE000222019 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		13DCEB811E59A68900222019 /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
@@ -113,7 +122,7 @@
 		1389B90E1E5998BA00B7B21A = {
 			isa = PBXGroup;
 			children = (
-				1389B9191E5998BB00B7B21A /* CafeMockup */,
+				1389B9191E5998BB00B7B21A /* MockupCafe */,
 				1389B9181E5998BB00B7B21A /* Products */,
 				EF9FF47AB77B5115C92906AD /* Pods */,
 				C4164D59D7304675244A4939 /* Frameworks */,
@@ -123,15 +132,16 @@
 		1389B9181E5998BB00B7B21A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1389B9171E5998BB00B7B21A /* CafeMockup.app */,
+				1389B9171E5998BB00B7B21A /* MockupCafe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1389B9191E5998BB00B7B21A /* CafeMockup */ = {
+		1389B9191E5998BB00B7B21A /* MockupCafe */ = {
 			isa = PBXGroup;
 			children = (
 				1389B91A1E5998BB00B7B21A /* AppDelegate.swift */,
+				13C15B5C1E62E89A00ACC7D9 /* models */,
 				139110E81E5A221500EEE60B /* common */,
 				139110B21E59FC6500EEE60B /* view */,
 				13DCEB791E599A7A00222019 /* controllers */,
@@ -142,7 +152,7 @@
 				1389B9231E5998BB00B7B21A /* LaunchScreen.storyboard */,
 				1389B9261E5998BB00B7B21A /* Info.plist */,
 			);
-			path = CafeMockup;
+			path = MockupCafe;
 			sourceTree = "<group>";
 		};
 		139110B21E59FC6500EEE60B /* view */ = {
@@ -150,6 +160,7 @@
 			children = (
 				139110BD1E5A176B00EEE60B /* XButton.swift */,
 				139110B31E59FC7700EEE60B /* ProductCollectionViewCell.swift */,
+				139D14E71E630B17003970C1 /* ProductTotalCollectionViewCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -185,6 +196,14 @@
 			path = common;
 			sourceTree = "<group>";
 		};
+		13C15B5C1E62E89A00ACC7D9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				13C15B5D1E62E8A400ACC7D9 /* Product.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		13DCEB791E599A7A00222019 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +228,7 @@
 		13DCEB7B1E599A7A00222019 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				139D14E91E631DFB003970C1 /* coffe-paper-cup.jpg */,
 				139110E61E5A21A600EEE60B /* icon-settings.png */,
 				139110E01E5A1B1700EEE60B /* logo.png */,
 				139110BF1E5A19FA00EEE60B /* appicon */,
@@ -228,6 +248,7 @@
 		13DCEB7C1E599A7A00222019 /* services */ = {
 			isa = PBXGroup;
 			children = (
+				13C15B5F1E62E92600ACC7D9 /* ProductService.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -252,9 +273,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1389B9161E5998BA00B7B21A /* CafeMockup */ = {
+		1389B9161E5998BA00B7B21A /* MockupCafe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1389B9291E5998BB00B7B21A /* Build configuration list for PBXNativeTarget "CafeMockup" */;
+			buildConfigurationList = 1389B9291E5998BB00B7B21A /* Build configuration list for PBXNativeTarget "MockupCafe" */;
 			buildPhases = (
 				68FA2B521EDC2CE425EBB6F1 /* [CP] Check Pods Manifest.lock */,
 				1389B9131E5998BA00B7B21A /* Sources */,
@@ -267,9 +288,9 @@
 			);
 			dependencies = (
 			);
-			name = CafeMockup;
+			name = MockupCafe;
 			productName = CafeMockup;
-			productReference = 1389B9171E5998BB00B7B21A /* CafeMockup.app */;
+			productReference = 1389B9171E5998BB00B7B21A /* MockupCafe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -289,7 +310,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1389B9121E5998BA00B7B21A /* Build configuration list for PBXProject "CafeMockup" */;
+			buildConfigurationList = 1389B9121E5998BA00B7B21A /* Build configuration list for PBXProject "MockupCafe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -302,7 +323,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1389B9161E5998BA00B7B21A /* CafeMockup */,
+				1389B9161E5998BA00B7B21A /* MockupCafe */,
 			);
 		};
 /* End PBXProject section */
@@ -316,6 +337,7 @@
 				1389B9251E5998BB00B7B21A /* LaunchScreen.storyboard in Resources */,
 				139110B91E5A07B300EEE60B /* burger-carolina.jpg in Resources */,
 				139110DA1E5A19FA00EEE60B /* AppIcon72x72.png in Resources */,
+				139D14EA1E631DFB003970C1 /* coffe-paper-cup.jpg in Resources */,
 				139110D61E5A19FA00EEE60B /* AppIcon57x57.png in Resources */,
 				139110D91E5A19FA00EEE60B /* AppIcon60x60@2x.png in Resources */,
 				139110BA1E5A07B300EEE60B /* burger-classic.jpg in Resources */,
@@ -342,6 +364,7 @@
 				139110E71E5A21A600EEE60B /* icon-settings.png in Resources */,
 				139110D01E5A19FA00EEE60B /* AppIcon29x29.png in Resources */,
 				13DCEB821E59A68900222019 /* banner.jpg in Resources */,
+				139D14E41E62EE03003970C1 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,10 +428,13 @@
 				139110BE1E5A176B00EEE60B /* XButton.swift in Sources */,
 				13057AE81E59BCCF005BA991 /* ProductCollectionViewController.swift in Sources */,
 				13DCEB801E599BE000222019 /* BaseViewController.swift in Sources */,
+				13C15B601E62E92600ACC7D9 /* ProductService.swift in Sources */,
+				13C15B5E1E62E8A400ACC7D9 /* Product.swift in Sources */,
 				1389B91B1E5998BB00B7B21A /* AppDelegate.swift in Sources */,
 				139110B41E59FC7700EEE60B /* ProductCollectionViewCell.swift in Sources */,
 				139110E31E5A207800EEE60B /* BasketViewController.swift in Sources */,
 				13DCEB7E1E599BB300222019 /* DrawerViewController.swift in Sources */,
+				139D14E81E630B17003970C1 /* ProductTotalCollectionViewCell.swift in Sources */,
 				139110E51E5A209900EEE60B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,10 +557,11 @@
 			baseConfigurationReference = 8A3AB0F27F6F0819C47428B2 /* Pods-CafeMockup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = ECAUWYD9Y5;
-				INFOPLIST_FILE = CafeMockup/Info.plist;
+				INFOPLIST_FILE = MockupCafe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cybecor.ios.swift.mockup.CafeMockup;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cybecor.ios.swift.mockup.MockupCafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -545,10 +572,11 @@
 			baseConfigurationReference = C40ED22ADCFAACF379C5055F /* Pods-CafeMockup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = ECAUWYD9Y5;
-				INFOPLIST_FILE = CafeMockup/Info.plist;
+				INFOPLIST_FILE = MockupCafe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cybecor.ios.swift.mockup.CafeMockup;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cybecor.ios.swift.mockup.MockupCafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -557,7 +585,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1389B9121E5998BA00B7B21A /* Build configuration list for PBXProject "CafeMockup" */ = {
+		1389B9121E5998BA00B7B21A /* Build configuration list for PBXProject "MockupCafe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1389B9271E5998BB00B7B21A /* Debug */,
@@ -566,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1389B9291E5998BB00B7B21A /* Build configuration list for PBXNativeTarget "CafeMockup" */ = {
+		1389B9291E5998BB00B7B21A /* Build configuration list for PBXNativeTarget "MockupCafe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1389B92A1E5998BB00B7B21A /* Debug */,
